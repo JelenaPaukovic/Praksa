@@ -1,0 +1,5 @@
+name: Movies controller with template 
+description: Movies controller with template
+package: Custom
+type: module
+core: 8.x

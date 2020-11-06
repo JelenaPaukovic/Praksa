@@ -1,0 +1,7 @@
+movies.movie_list:
+  path: '/movies'
+  defaults: 
+    _controller: 'Drupal\movies\Controller\MovieController::page'
+    _title: 'Custom movie list'
+  requirements:
+    _permission: 'access content'
