@@ -1,0 +1,12 @@
+<?php
+
+function movies_theme($existing, $type, $path){
+
+    return array(
+        'movie_list' => array(
+            'variables' => array('items' => array(), 'title' => '')
+        )
+    );
+
+
+}
